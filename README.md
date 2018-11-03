@@ -8,11 +8,13 @@ Framework MVC para front-end.
 ## Empezando
 Primero hay que acceder a la carpeta conference-tracker.
 
-Luego, dentro de la carpeta mencionada ejecutamos:  `npm run build`
+Luego, dentro de la carpeta mencionada ejecutamos:  
+`npm run build`
 
 Este comando compilará nuestra aplicación.
 
 ## Desplegando
-Ejecutamos:  `npm start`
+Ejecutamos:  
+`npm start`
 
 Automáticamente abrirá la aplicación usando el puerto `:8080`
