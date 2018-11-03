@@ -1,0 +1,8 @@
+# NPM package #
+conference-tracker/node_modules/
+
+# Files for deploy 
+conference-tracker/dist/
+
+# Installers
+conference-tracker/package-lock
