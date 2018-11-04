@@ -1,6 +1,6 @@
 // src/components/layout/app.jsx
 
-const m = require('mithril')
+const m = require('mithril');
 
 import MainStage from "./MainStage.jsx";
 import NavBar from "./NavBar.jsx";

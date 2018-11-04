@@ -1,6 +1,6 @@
 // src/components/layout/NavBar.jsx
 
-const m = require ('mithril')
+const m = require ('mithril');
 
 import NavButton from '../ui/NavButton.jsx'
 
@@ -11,6 +11,6 @@ const NavBar = {
         <NavButton path={`conferences`} icon={<i class="fas fa-user"/>} />
         <NavButton path={`entry`} icon={<i class="fas fa-edit"/>} />
     </div>
-}
+};
 
 export default NavBar;

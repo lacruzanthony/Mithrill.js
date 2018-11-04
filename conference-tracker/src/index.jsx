@@ -1,3 +1,5 @@
+// /src/index.jsx
+
 const m = require("mithril");
 const root = document.getElementById("app");
 
