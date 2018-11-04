@@ -1,4 +1,8 @@
 const m = require("mithril");
 const root = document.getElementById("app");
 
-m.render(root, "So it begins!");
+import App from './components/layout/app.jsx';
+
+
+
+m.render(root, <App>"So it begins!"</App>);
