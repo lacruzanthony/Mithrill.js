@@ -13,7 +13,7 @@ Luego, dentro de la carpeta mencionada ejecutamos:
 
 Este comando compilará nuestra aplicación.
 
-## Desplegando
+## Despliegue
 Ejecutamos:  
 `npm start`
 
