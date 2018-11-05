@@ -3,9 +3,10 @@
 const m = require("mithril");
 const root = document.getElementById("app");
 
-// Styles
+// Styles.
 import "./index.css";
 
 import App from './components/layout/app.jsx';
 
-m.render(root, <App>"So it begins!"</App>);
+// Main de la aplicación.
+m.render(root, <App/>);
