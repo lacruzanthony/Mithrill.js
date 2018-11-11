@@ -2,15 +2,15 @@ const CONFERENCES = [{
     name: "auth0 conf",
     location: "Orlando, FL",
     date: "06/30/2018",
-    favorite: true,
+    favorite: false,
     CFP: true,
-    CFPDate: "04/20/2018",
+    CFPDate: "12/20/2018",
     CFPCompleted: false
   },
   {
     name: "Mithril conf",
     location: "Boston, MA",
-    date: "05/10/2018",
+    date: "12/10/2018",
     favorite: true,
     CFP: false,
     CFPDate: "",
@@ -40,3 +40,4 @@ const CONFERENCES = [{
 
 exports.getMockData = () => CONFERENCES;
 exports.setMockData = (conference) => CONFERENCES.push(conference);
+exports.updateMockData = (conference) => CONFERENCES[CONFERENCES.findIndex(card => card.name === conference.name)]=conference;
